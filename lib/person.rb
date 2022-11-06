@@ -30,7 +30,9 @@ class Person
             @hygiene = hygiene
         end
     end
-
+    def hygiene
+        @hygiene
+    end
     def happy?
         if @happiness > 7
             true
